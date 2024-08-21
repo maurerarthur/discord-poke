@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const secret = process.env.SECRET;
-const prefix = process.env.PREFIX;
+const prefix = '?';
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
